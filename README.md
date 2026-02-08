@@ -2,11 +2,11 @@
 
 1. Explain how to create an array of 100 elements
    
-    Creating an array of 100 elements using c++, I will use an integer array, the index starts at 0 and ends with 99. so create an array name "arr" that can store 100 integer values.
+    Creating an array of 100 elements using c++, I will use an integer array, the index starts at 0 and ends with 99. so create an array name "arr" that can store 100 integer values. (See `array assignment.cpp` for the C++ code.)
 
-3. What the size of each element of an array?
+2. What the size of each element of an array?
    
-    Since each element is an integer in the array. Genrally an integer taks up 4 bytes of memory and we can check using "sizeof" operator in the code.
+    Since each element is an integer in the array. Genrally an integer taks up 4 bytes of memory and we can check using "sizeof" operator in the code. (See `array assignment.cpp` for the C++ code.)
 
    3. Number of steps for array operation (N = 100)
       
@@ -21,9 +21,9 @@
          
          The array must be scanned from start to end to make sure every "apple" is found. The search cannot stop after the first match, it requires checking all N elements , so the totality number of steps is N.
 
-      6. Research how to find the memory address of an array. You can use any programming language of your choice.(requires code) 1 pts
+      5. Research how to find the memory address of an array. You can use any programming language of your choice.(requires code) 1 pts
          
-         In C++, the memory address of an array os represented by the name of the array.
+         In C++, the memory address of an array os represented by the name of the array.(See `array assignment.cpp` for the C++ code.)
          int arr[100];
          cout << arr << endl;
          cout <<&arr[0] << endl;
